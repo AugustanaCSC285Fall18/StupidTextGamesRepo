@@ -1,6 +1,7 @@
+import java.util.Scanner;
 
 public interface StupidTextGame {
 	
 	public String getName();
-	public void play();
+	public void play(Scanner console);
 }

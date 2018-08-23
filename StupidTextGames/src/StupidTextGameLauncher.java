@@ -18,7 +18,7 @@ public class StupidTextGameLauncher {
 		Scanner console = new Scanner(System.in);
 		int choice = console.nextInt();
 		StupidTextGame chosenGame = games.get(choice-1);
-		chosenGame.play();
+		chosenGame.play(console);
 	}
 
 }

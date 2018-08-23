@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class UnluckyDiceGame implements StupidTextGame {
 	
@@ -6,7 +7,7 @@ public class UnluckyDiceGame implements StupidTextGame {
 		return "Unlucky Dice";
 	}
 	
-	public void play() {
+	public void play(Scanner console) {
 		Random randGen = new Random();		
 		int roll = randGen.nextInt(6) + 1;
 		System.out.println("You rolled " + roll);
