@@ -5,9 +5,13 @@ import java.util.Scanner;
  * Date: 8/24/18
  * Class: CSC285
  */
-public class MoreThanFiveGame {
+public class MoreThanFiveGame implements StupidTextGame {
+	
+	public String getName() {
+		return ("More Than Five Game");
+	}
 
-	public static void main(String[] args) {
+	public void play(Scanner Console) {
 	  Scanner console = new Scanner(System.in);
 	  System.out.print("Please type an integer:");
 	  int userInput = console.nextInt();
