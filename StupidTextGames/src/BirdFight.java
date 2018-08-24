@@ -13,14 +13,14 @@ public class BirdFight implements StupidTextGame{
 		System.out.println("Type in the bird you want to fight!");
 		System.out.println("Emu, Ostrich, Bald Eagle, Pigeon");
 		String choice = console.next();
-		if(choice == "Emu"|| choice == "emu") {
+		if(choice.equalsIgnoreCase("Emu")) {
 			System.out.println("Emus are too big to fight, you lose!");
-		} else if(choice == "Ostrich"|| choice == "ostrich") {
+		} else if(choice.equalsIgnoreCase("Ostrich")) {
 			System.out.println("Ostriches are too fast to fight, you lose!");
-		} else if(choice == "Bald Eagle"|| choice == "bald eagle") {
+		} else if(choice.equalsIgnoreCase("bald eagle")) {
 			System.out.println("Bald Eagles have too much freedom to fight, you lose!");
-		} else if(choice == "Pigeon"|| choice == "pigeon") {
-			System.out.println("Pigeons are the worst bird, you won the fight!");
+		} else if(choice.equalsIgnoreCase("pigeon")) {
+			System.out.println("Pigeons are the worst type of bird, you won the fight!");
 		}
 		
 	}
