@@ -18,6 +18,7 @@ public class LeftOrRightGame implements StupidTextGame {
 		System.out.println("\nLet's guess.... Left or Right?");
 		Random rand = new Random();
 		int roll = rand.nextInt(2) ;
+		System.out.println(roll);
 		
 		String ans = console.next();
 		int answer = 2;
