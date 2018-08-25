@@ -1,4 +1,9 @@
-
+/**
+ * Name: Avery VanOpdorp
+ * Date: 08/24/18
+ * This is a stupid text game called Unlucky Black Jack. It implements the StupidTextGame interface.
+ * You try to beat the dealer in Black Jack but no matter what you always lose.
+ */
 
 import java.util.Random;
 import java.util.Scanner;
