@@ -1,7 +1,7 @@
 
 public class StupidEmuRace implements StupidTextGame{
 	public String getName() {
-		return "Chicken Toss";
+		return "Emu Race";
 	}
 	public void play(Scanner console) {		
 		System.out.println("Enter how many laps you want to race ");
