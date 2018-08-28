@@ -1,3 +1,4 @@
+//This was created by me (Chris Baker)
 import java.util.Scanner;
 
 public class DontChooseGame implements StupidTextGame {
