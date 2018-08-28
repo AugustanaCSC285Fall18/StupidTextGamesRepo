@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /*
- * Ehren Braun
+ * Creator: Ehren Braun
  */
 public class PasswordGame implements StupidTextGame{
 	public String getName() {
