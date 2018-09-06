@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class PlateTossGame implements StupidTextGame{
 
 	public String getName() {
-		return "Ball toss";
+		return "Plate toss";
 	}
 
 	public void play(Scanner console) {
