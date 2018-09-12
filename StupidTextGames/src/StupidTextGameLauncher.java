@@ -31,6 +31,7 @@ public class StupidTextGameLauncher {
 		games.add(new FlappyChicken());
 		games.add(new AngryPenguinGame());
 		games.add(new MoreThanFiveGame());
+    games.add(new CoinFlipGame());
 		
 		System.out.println("Choose a stupid text game:");
 		for (int i = 0; i < games.size(); i++) {
