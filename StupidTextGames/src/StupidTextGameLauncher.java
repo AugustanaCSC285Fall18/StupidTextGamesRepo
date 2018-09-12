@@ -11,7 +11,6 @@ public class StupidTextGameLauncher {
 		games.add(new ChickenTossGame());
 		games.add(new DontChooseGame());
 		games.add(new BurgerKingOrNotGame());
-		games.add(new FootballRunGame());
 		games.add(new PasswordGame());
 		games.add(new LameNameGame());
 		games.add(new EatingChocolateGame());
