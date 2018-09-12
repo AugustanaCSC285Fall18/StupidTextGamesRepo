@@ -9,6 +9,7 @@ public class StupidTextGameLauncher {
 		List<StupidTextGame> games = new ArrayList<>();
 		games.add(new UnluckyDiceGame());
 		games.add(new ChickenTossGame());
+		games.add(new LeftOrRightGame());
 		games.add(new UnluckyBlackJack());
 		games.add(new HeadsOrTails());
 		games.add(new FlyingChickenGame());
