@@ -9,6 +9,7 @@ public class StupidTextGameLauncher {
 		List<StupidTextGame> games = new ArrayList<>();
 		games.add(new UnluckyDiceGame());
 		games.add(new ChickenTossGame());
+		games.add(new PlateTossGame());
 		games.add(new MoreThanFiveGame());
 		
 		System.out.println("Choose a stupid text game:");
