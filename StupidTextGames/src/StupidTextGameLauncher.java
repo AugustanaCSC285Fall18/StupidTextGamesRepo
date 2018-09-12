@@ -10,6 +10,8 @@ public class StupidTextGameLauncher {
 		games.add(new UnluckyDiceGame());
 		games.add(new ChickenTossGame());
 		games.add(new FlappyChicken());
+		games.add(new AngryPenguinGame());
+		games.add(new MoreThanFiveGame());
 		
 		System.out.println("Choose a stupid text game:");
 		for (int i = 0; i < games.size(); i++) {
